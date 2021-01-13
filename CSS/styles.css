@@ -302,6 +302,11 @@ li a:hover {
   border: 5px solid #66BFBF;
 }
 
+.my-resume {
+  width: 100%;
+  border: 5px solid #66BFBF;
+}
+
 .BUTTON_YGG {
   background: #11CDD4;
   background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
