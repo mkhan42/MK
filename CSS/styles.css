@@ -396,3 +396,7 @@ li a:hover {
 #welcome {
   margin-top: 2% !important;
 }
+
+button {
+  border: none;
+}
