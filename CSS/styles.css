@@ -256,6 +256,11 @@ li a:hover {
   text-align: center;
 }
 
+.catfish-proj {
+  width: 100%;
+  border: 5px solid #66BFBF;
+}
+
 .collage-proj {
   width: 50%;
   border: 5px solid #66BFBF;
@@ -332,4 +337,62 @@ li a:hover {
   background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
   background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
   text-decoration: none;
+}
+
+.laguages-row {
+  display: table;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  border-spacing: 2%;
+}
+.languages-column {
+  display: table-cell;
+}
+
+
+.laguages-row-2 {
+  display: table;
+  width: 100%;
+  text-align: center;
+  /* margin-right: 20px !important; */
+  margin: 0;
+  /* border-spacing: -4%; */
+}
+.languages-column-2 {
+  display: table-cell;
+  width: 20%;
+}
+
+.laguages-row-3 {
+  display: table;
+  width: 100%;
+  text-align: center;
+  /* margin-right: 20px !important; */
+  margin: 0;
+  /* border-spacing: -4%; */
+}
+.languages-column-3 {
+  display: table-cell;
+  width: 20%;
+}
+
+.laguages-row-4 {
+  display: flex;
+}
+.languages-column-4 {
+  flex: 1;
+}
+
+.languages-column-4:first-child {
+  margin-right: -50%;
+} 
+
+.languages-column-5 {
+  display: table-cell;
+  width: 20%;
+}
+
+#welcome {
+  margin-top: 2% !important;
 }
