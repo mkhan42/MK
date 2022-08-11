@@ -131,7 +131,8 @@ li a:hover {
 
 .top-cloud {
   position: absolute;
-  right: 300px;
+  /* right: 300px; */
+  right: 0px;
   top: 40px;
   -webkit-animation: linear infinite;
   -webkit-animation-name: run_top_cloud;
@@ -168,12 +169,12 @@ li a:hover {
   /* left: 300px; */
   bottom: 300px;
   left: 0px;
-  /* -webkit-animation: linear infinite;
+  -webkit-animation: linear infinite;
   -webkit-animation-name: run_bottom_cloud;
-  -webkit-animation-duration: 5s; */
+  -webkit-animation-duration: 5s;
   /* transition: 0.5s; */
   /* animation: cowmove 5s linear infinite;     */
-  animation: run_bottom_cloud 5s linear infinite;
+  /* animation: run_bottom_cloud 5s linear infinite; */
   /* animation-direction: alternate-reverse; */
 }
 
@@ -187,7 +188,7 @@ li a:hover {
   }
 
   50% {
-    left: calc(100% - 100px);
+    left: calc(100% - 150px);
     -webkit-transform: rotateY(180deg);
   }
 
