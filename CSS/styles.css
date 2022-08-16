@@ -333,6 +333,15 @@ li a:hover {
 .my-resume {
   width: 100%;
   border: 5px solid;
+  /* margin-right: -10px;
+  padding-right: -10px; */
+}
+
+.my-resume2 {
+  width: 99%;
+  /* position: relative; */
+  /* height: 100%; */
+  text-align: center;
 }
 
 .BUTTON_YGG {
